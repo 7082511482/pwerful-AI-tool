@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    background: #020617;
+    color: white;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #38bdf8;
+}
+
+select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #38bdf8;
+    border: none;
+    cursor: pointer;
+}
+
+pre {
+    background: black;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
