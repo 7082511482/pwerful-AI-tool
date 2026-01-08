@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C Language AI Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🤖 C Language AI Tool</h1>
+    <p>Solves ONLY C programming problems</p>
+
+    <select id="category" onchange="loadProblems()">
+        <option value="">Select Category</option>
+        <option value="basic">Basic Input / Output</option>
+        <option value="operators">Operators & Expressions</option>
+        <option value="condition">Conditional Statements</option>
+        <option value="loops">Looping Problems</option>
+        <option value="array">Array Programs</option>
+        <option value="string">String Programs</option>
+        <option value="function">Function Programs</option>
+        <option value="pointer">Pointer Programs</option>
+        <option value="structure">Structure & Union</option>
+        <option value="file">File Handling</option>
+        <option value="dynamic">Dynamic Memory</option>
+        <option value="logic">Logic Problems</option>
+    </select>
+
+    <select id="problem">
+        <option value="">Select Problem</option>
+    </select>
+
+    <button onclick="solve()">Solve</button>
+
+    <pre id="output"></pre>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
